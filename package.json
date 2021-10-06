@@ -1,0 +1,17 @@
+{
+  "name": "ckat-bot",
+  "version": "0.1.0",
+  "description": "A bot",
+  "main": "main.js",
+  "scripts": {},
+  "author": "SMOLKEYS",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "discord-player": "^5.1.0",
+    "discord.js": "^13.1.0",
+    "express": "^4.17.1",
+    "keyv": "^4.0.3",
+    "node-fetch": "^3.0.0"
+  }
+}
