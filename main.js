@@ -103,12 +103,11 @@ client.on('ready', async () =>{
 		client.channels.cache.get("881787168392089633").setName("скат-" + alp);
         client.channels.cache.get("881789221445177357").setTopic("g: " + bet);
 	}, 300000);
-/*
 	let interval2 = setInterval(() => {
 		const gam = gamma[Math.floor(Math.random() * gamma.length)];
 		client.channels.cache.get("894843092396564510").send(gam)
-	}, 6000);
-*/
+	}, 1000);
+
 });
 
 client.on("messageCreate", async (message) => {
