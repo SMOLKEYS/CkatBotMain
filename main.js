@@ -97,16 +97,10 @@ const epilson = [
 ];
 
 client.on('ready', async () =>{
-	let interval = setInterval(() => {
-		const alp = alpha[Math.floor(Math.random() * alpha.length)];
-		const bet = beta[Math.floor(Math.random() * beta.length)];
-		client.channels.cache.get("881787168392089633").setName("скат-" + alp);
-        client.channels.cache.get("881789221445177357").setTopic("g: " + bet);
-	}, 300000);
 	let interval2 = setInterval(() => {
 		const gam = gamma[Math.floor(Math.random() * gamma.length)];
 		client.channels.cache.get("894843092396564510").send(gam)
-	}, 1000);
+	}, 1500);
 
 });
 
